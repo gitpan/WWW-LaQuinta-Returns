@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               WWW-LaQuinta-Returns
-version:            0.01
+version:            0.02
 abstract:           Scraper for La Quinta Returns site
 author:
     - Michael Aquilina <aquilina@cpan.org>

@@ -5,7 +5,7 @@ use warnings;
 use Carp;
 use WWW::Mechanize;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 NAME
 
@@ -71,7 +71,6 @@ sub balance
     my @regexes = (
         qq|<strong>$digit_regex<\/strong> points|,
         qq|<span style='color:#9bca14;'><b>$digit_regex<\/b><\/span> <span style='color:#cccccc;font-size:12px;'>points|,
-        qq|<td class="account-data" style="border:0;color:#99cc00;padding-bottom:0;">$digit_regex<\/td>|,
     );
 
     my @matches;
