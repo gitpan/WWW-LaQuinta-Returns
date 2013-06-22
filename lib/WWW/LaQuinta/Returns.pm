@@ -5,7 +5,7 @@ use warnings;
 use Carp;
 use WWW::Mechanize;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 NAME
 
@@ -180,7 +180,7 @@ Use this scraper like you would a web browser. You wouldn't sit at your computer
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2010 Michael Aquilina. All rights reserved.
+Copyright (C) 2013 Michael Aquilina. All rights reserved.
 
 This code is free software; you can redistribute it and/or modify it under the same terms as Perl itself.
 
